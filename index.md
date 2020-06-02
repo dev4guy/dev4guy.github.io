@@ -1,5 +1,6 @@
 [a relative link](test.md)
-[a relative link](other_file.md)
+
+[a relative link](pages/temp)
 
 ## Welcome to GitHub Pages
 
