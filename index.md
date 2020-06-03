@@ -2,7 +2,7 @@
 
 [Temp](pages/temp.md)
 
-[XP](mqdefault_6s.webp)
+![Image](mqdefault_6s.webp)
 
 ## Welcome to GitHub Pages
 
