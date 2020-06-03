@@ -3,7 +3,7 @@
 [Temp](pages/temp.md)
 
 An image as a link: <a href="https://www.w3schools.com">
-<img border="0" alt="W3Schools" src="logo_w3s.gif" width="100" height="100">
+<img border="0" alt="W3Schools" src="mqdefault_6s.webp" width="100" height="100">
 </a>
 
 ## Welcome to GitHub Pages
