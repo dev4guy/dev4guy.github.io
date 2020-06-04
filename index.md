@@ -2,10 +2,6 @@
 
 [Temp](pages/temp.md)
 
-<a href="https://www.w3schools.com">
-<img border="0" alt="W3Schools" src="mqdefault_6s.webp" width="100" height="66">
-</a><br>Triggernometry
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/dev4guy/dev4guy.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
