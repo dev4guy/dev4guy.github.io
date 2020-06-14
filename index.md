@@ -1,6 +1,6 @@
 [Test](test.md)
 
-[Temp](pages/temp.md)
+[Salesforce Command Line Reference](pages/sfcli.md)
 
 ## Welcome to GitHub Pages
 
