@@ -6,5 +6,6 @@
 ## Formula
 ### LEFT, RIGHT  
 LEFT(text, num_chars)
-```TRIM(LEFT(LastName, 5)) & "-" & TRIM(RIGHT(SSN__c, 4))
+```
+TRIM(LEFT(LastName, 5)) & "-" & TRIM(RIGHT(SSN__c, 4))
 ```
