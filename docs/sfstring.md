@@ -4,7 +4,7 @@
 * [Javascript Methods](https://www.w3schools.com/js/js_string_methods.asp)
 
 ## Formula
-###LEFT, RIGHT
+###LEFT, RIGHT  
 LEFT(text, num_chars)
 ```TRIM(LEFT(LastName, 5)) & "-" & TRIM(RIGHT(SSN__c, 4))
 ```
