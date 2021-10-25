@@ -1,6 +1,6 @@
 Index page
 
-[String manipulation](sfstring.md)
+[String manipulation](./docs/sfstring.md)
 
 [README FILE](README.md)
 
