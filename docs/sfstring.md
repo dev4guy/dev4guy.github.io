@@ -4,9 +4,9 @@
 * [Javascript Methods](https://www.w3schools.com/js/js_string_methods.asp)
 
 ## Formula
-### LEFT, RIGHT  
+#### LEFT, RIGHT  
 LEFT(text, num_chars)
 
-### MID  
+##### MID  
 MID(text, start_num, num_chars) (One-based)
 
