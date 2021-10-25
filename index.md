@@ -1,2 +1,2 @@
 Index page
-(README FILE)[.README.md]
+[README FILE](README.md)
