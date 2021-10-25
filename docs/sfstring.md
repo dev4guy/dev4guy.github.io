@@ -3,8 +3,8 @@
 * [Salesforce Apex](https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm)
 * [Javascript Methods](https://www.w3schools.com/js/js_string_methods.asp)
 
-## Formila
-###Left/Right
+## Formula
+###LEFT, RIGHT
 LEFT(text, num_chars)
 ```TRIM(LEFT(LastName, 5)) & "-" & TRIM(RIGHT(SSN__c, 4))
 ```
