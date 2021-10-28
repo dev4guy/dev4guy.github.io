@@ -10,9 +10,9 @@
 - Executes auto-response rules.
 - Executes workflow rules.
 - If there are workflow field updates, then it updates the record again.
-- If the Workflow field updates introduced new duplicate field values, executes duplicate rules again.
-- If the record was updated with workflow field updates, it fires before and after update triggers one more time (and only one more time) in addition to standard validation.
-- Custom validation rules are not run again.
+   - If the Workflow field updates introduced new duplicate field values, executes duplicate rules again.
+   - If the record was updated with workflow field updates, it fires before and after update triggers one more time (and only one more time) in addition to standard validation.
+   - Custom validation rules are not run again.
 - Executes processes and flow.
 - Escalation rules.
 - Executes entitlement rules.
