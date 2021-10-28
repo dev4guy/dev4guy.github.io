@@ -10,3 +10,10 @@ LEFT(text, num_chars)
 #### MID  
 MID(text, start_num, num_chars) (One-based)
 
+## Apex
+#### str.split  
+```
+String str = 'this-is-test-data';
+List<String> res = str.split('-', 2);
+System.debug(res);
+```
