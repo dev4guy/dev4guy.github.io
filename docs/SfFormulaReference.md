@@ -1,3 +1,13 @@
+| Math Operator                               | Description                                                                                                                                                                   |
+|---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| + (Add)                                     | Calculates the sum of two values.                                                                                                                                             |
+| - (Subtract)                                | Calculates the difference of two values.                                                                                                                                      |
+| * (Multiply)                                | Multiplies its values.                                                                                                                                                        |
+| / (Divide)                                  | Divides its values.                                                                                                                                                           |
+| ^ (Exponentiation)                          | Raises a number to a power of a specified number.                                                                                                                             |
+| () (Open Parenthesis and Close Parenthesis) | Specifies that the expressions within the open parenthesis and close parenthesis are evaluated first. All other expressions are evaluated using standard operator precedence. |
+
+
 | Text Operator              | Description                                                                                                                          |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | = and == (Equal)           | Evaluates if two values are equivalent. The = and == operator are interchangeable.                                                   |
