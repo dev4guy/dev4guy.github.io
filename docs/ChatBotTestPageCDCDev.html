@@ -41,7 +41,6 @@
          <div class="ftrDiv"></div>
 
 
-
 <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
 		background-color: #005290;
@@ -49,16 +48,16 @@
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
 		outline: 1px solid #005290;
-	}	
+	}
 </style>
 
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
-                //Next two lines added to initESW() function in order to force a dummy value in to the Case.Subject field 2020-06-18-Guy-Taylor
-                embedded_svc.settings.extraPrechatFormDetails = [{"label": "Subject", "value": "Chat Placeholder Subject", "displayToAgent": false}];
-                embedded_svc.settings.extraPrechatInfo = [{"entityFieldMaps": [{"doCreate": true, "doFind": false, "fieldName": "Subject", "isExactMatch": false, "label": "Subject"}], "entityName": "Case"}];
-		
+                	//Next two lines added to initESW() function in order to force a dummy value in to the Case.Subject field 2020-06-18-Guy-Taylor
+                	embedded_svc.settings.extraPrechatFormDetails = [{"label": "Subject", "value": "Chat Placeholder Subject", "displayToAgent": false}];
+                	embedded_svc.settings.extraPrechatInfo = [{"entityFieldMaps": [{"doCreate": true, "doFind": false, "fieldName": "Subject", "isExactMatch": false, "label": "Subject"}], "entityName": "Case"}];
+
 		embedded_svc.settings.displayHelpButton = true; //Or false
 		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
@@ -81,8 +80,8 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://publica--dev07.my.salesforce.com',
-			'https://dev07-publicalive.cs88.force.com',
+			'https://publica--dev07.sandbox.my.salesforce.com',
+			'https://publica--dev07.sandbox.my.salesforce-sites.com/',
 			gslbBaseURL,
 			'00D9E0000002bwl',
 			'CDC_Chat',
@@ -99,7 +98,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://publica--dev07.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://publica--dev07.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
@@ -108,7 +107,8 @@
 		initESW('https://service.force.com');
 	}
 </script>
-
+	   
+	   
 
 
    </body>
