@@ -1,3 +1,3 @@
-Command Palette *Ctrl-Shift-P*
-SFDS: Create Project with Manifest
-Standard
+- Command Palette **Ctrl-Shift-P**
+- SFDS: Create Project with Manifest
+- Standard
