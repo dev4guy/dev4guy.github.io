@@ -1,3 +1,7 @@
 - Command Palette **Ctrl-Shift-P**
-- SFDS: Create Project with Manifest
-- Standard
+- SFDX: Create Project with Manifest
+- Standard - creates folder structure
+- SFDX: Authorize and Org - e.g. 'guy.taylor@publicagroup.uk.dev07'
+- Edit **package.xml** file to specify the components that you want to download
+- Click on **package.xml**
+- Use Command Palette or right click and select **Retrieve Source in Manifest from Org**
